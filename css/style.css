@@ -1,0 +1,31 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.code-font {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.progress-bar-fill {
+    transition: width 0.3s ease;
+}
+
+.answer-card {
+    transition: all 0.2s ease;
+}
+
+.answer-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.result-card {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.glow{
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+}
